@@ -1,5 +1,5 @@
 // A single class that has grown to handle too many things.
-class Index {
+class TodoManager {
     constructor() {
         this.tasks = [];
         this.storage = new LocalStorageHandler(); 
